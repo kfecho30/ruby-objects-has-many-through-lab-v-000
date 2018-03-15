@@ -3,6 +3,6 @@ class Appointment
   def initialize(date, doctor)
     @date = date
     @doctor = doctor
-    doctor.add_appointment(self) if !doctor.appointments.include? sef
+    doctor.add_appointment(self) if !doctor.appointments.include? self
   end
 end
