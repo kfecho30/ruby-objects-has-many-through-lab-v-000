@@ -8,7 +8,6 @@ class Patient
       @appointments << appointment
       appointment.patient = self
     end
-
     def appointments
       @appointments
     end
